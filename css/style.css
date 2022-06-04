@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Fredoka+One&family=Fredoka:wght@300;400&family=Righteous&family=Sofia&family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Fredoka+One&family=Righteous&family=Sofia&family=Ubuntu&display=swap');
+body{ 
+   background-color: rgb(223, 236, 232);
+   font-family: 'Fredoka', sans-serif;
+   font-size: 16px; 
+}
+.header{
+    padding: 6px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(223, 236, 232, 0.61); 
+}
+.logo a{
+    color: rgba(0, 0, 0, 0.897);
+    text-decoration: none;
+    font-size: 5px;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+.logo img{
+    overflow: hidden;
+    height: 50px;  
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 24px;   
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav li a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    color: brown;
+}
+
+/* <header> */
+.main{
+    background-color: rgb(223, 236, 232);    
+}
+
+.banner{
+   background-image: url("../img/cupcake-1966693_1920.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 800px;
+   color: white;
+   overflow: hidden;
+   object-fit: cover;
+   background-attachment: fixed;
+}
+.content-banner{
+    text-align: center;
+    padding: 35px 40px;
+    background-color:  rgba(128, 128, 128, 0.61);   
+}
+.content-banner a:hover{
+    opacity: 0.8;
+    background-color: palevioletred;
+}
+.content-banner h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px; 
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 2px;
+       
+}
+.content-banner p{
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 32px;   
+}
+.btn{
+    padding: 8px 32px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    line-height: 20px;   
+}
+/* <banner> */
+.section-1{
+  
+   margin-top: 20px;
+   background-image: url("../img/w-left-techture.png");
+   background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: left;  
+}
+.section-1-img{
+    overflow: hidden;
+    height: 400px;
+    margin: 30px 0;
+}
+.section-1-img img{
+    width: 100%;
+}
+.content-section-1{
+    margin-bottom: 80px;
+    
+}
+.content-section-1 h2{
+    font-size: 45px;
+    font-family: 'Sofia', cursive;
+    color: brown;
+
+}
+.content-section-1 p{
+    margin: 15px 0 30px;
+    text-indent: 30px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+.content-section-1 a{
+    padding: 12px 20px;
+    border-radius: 50%;  
+    color: white;
+    background-color: brown ;
+    text-decoration: none;
+    font-size: 16px;
+  
+}
+.content-section-1 a:hover{
+    opacity: 0.8;
+    background-color:palevioletred;
+
+}
+/* <section-1> */
+
+.section-2{
+    background-image: url("../img/w-right-techture.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: bottom right;
+}
+
+.section-2 h1{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-family: 'Sofia', cursive;
+    color: brown;
+    
+}
+.feature-img{
+    overflow: hidden;
+    height: 250px;
+    
+}
+.feature-img img:hover{
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.822);
+    
+
+}
+.feature-img img{
+    width: 100%;
+}
+
+.content-card{
+    padding: 10px 10px;
+    background-color: pink;
+    margin: 0 0 12px 0;
+}
+.content-card h2{
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content-card p{
+    padding: 0 0 12px;
+    text-align: center;
+}
+
+/* <section-2> */
+.section-3{
+    background: url("../img/special-recipe.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    margin: 30px 0;   
+}
+
+.section-3 h1{
+    padding: 20px 20px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Sofia', cursive;
+    line-height: 55px;
+    background-color: rgba(128, 128, 128, 0.61);    
+}
+.section-4{
+    margin-top: 30px;
+    background-image: url("../img/w-left-techture.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: left;  
+}
+
+.section-4-img{
+    overflow: hidden;
+    height: 500px;
+    margin: 10px 0 0;   
+}
+.section-4 img{
+    width: 100%;
+}
+
+.content-section-4 ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+}
+.content-section-4 h2{
+    font-size: 45px;
+    line-height: 30px;
+    margin-bottom: 6px;
+    font-family: 'Sofia', cursive;
+    color: brown;
+
+}
+.content-section-4 a{
+  padding: 12px 20px;
+  border-radius: 50%;  
+  color: white;
+  background-color:brown ;
+  text-decoration: none;
+  font-size: 16px;
+}
+.content-section-4 p{
+   margin: 10px 0 20px;
+}
+.content-section-4 a:hover{
+    opacity: 0.8;
+    background-color:palevioletred;
+
+}
+.img{
+    background-image: url("../img/katherine-mccormack-j1egA73qp7c-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px; 
+}
+.sec6{
+    margin: 0  0 50px;
+    background-image: url("../img/w-right-techture.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right;
+}
+.sec6 h1{
+    margin-bottom: 30px;
+    font-family: 'Sofia', cursive;
+    font-size: 45px;
+    color: brown;
+}
+.sec6 p{
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-indent: 30px;
+}
+.section-5{
+    background: url("../img/macarons-7107135_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    font-size: 40px;
+    
+   
+}
+.banner-1{
+    padding: 30px 60px;
+}
+.section-5 h1{
+    font-size: 45px;
+    background-color: rgba(128, 128, 128, 0.61);
+    letter-spacing: 2px;
+    color: white;
+    padding: 24px 24px;
+    font-family: 'Sofia', cursive;
+}
+
+.banner-1 h1:hover{
+    opacity: 0.8;
+    text-decoration: none;
+    background-color:palevioletred;
+}
+
+.footer{ 
+    margin: 30px 0 0;  
+}
+
+.about-footer{
+    padding: 12px 0;   
+}
+.logo-1{
+    overflow: hidden;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.logo-1 img{
+    height: 100%;
+}
+.list-menu ul{
+    list-style: none;
+    padding: 0 12px;
+}
+.list-menu li{
+    margin-bottom: 12px;
+    padding: 0 12px;
+}
+.list-menu li a:hover{
+    opacity: 0.8;
+
+    color: palevioletred;
+
+}
+.list-menu li a{
+    color: rgba(0, 0, 0, 0.829);
+    text-decoration: none;
+}
+
